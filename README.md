@@ -10,3 +10,7 @@ random.js
 numbers.js
 **********
     A collection of functions that manipulate and validate numbers
+
+strings.js
+**********
+    A collection of functions that manipulate strings beyond the language's in-build methods.
