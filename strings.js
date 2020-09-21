@@ -1,3 +1,4 @@
+//removes the punctuation from a given string and returns that string
 function punctuationRemover(text){
     var punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
 
@@ -5,10 +6,8 @@ function punctuationRemover(text){
       return punctuation.indexOf(letter) === -1;
     }).join('');
 }
-//removes the punctuation from a given string and returns that string
 
-
+//removes all whitespace from a given string and returns that string
 function removeWhitespace(text){
     return text.replace(/\s/g, "");
 }
-//removes all whitespace from a given string and returns that string
