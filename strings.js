@@ -1,6 +1,6 @@
 //removes the punctuation from a given string and returns that string
 function punctuationRemover(text){
-    var punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
+    const punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
 
     return text.split('').filter(function(letter) {
       return punctuation.indexOf(letter) === -1;
